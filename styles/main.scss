@@ -1,0 +1,71 @@
+.container {
+  width: 100%;
+  height: 45%;
+  margin: 25px;
+  img.shirt {
+    height: 310px;
+    padding: 25px;
+      }
+
+  nav {
+    width: 100%;
+    height: 60px;
+    border-top: 2px solid #5CA4D7;
+    border-bottom: 2px solid #5CA4D7;
+  }
+
+  .shirt-style {
+    float: left;
+    padding-top: 30px;
+    font-size: 20px;
+    color: #5CA4D7;
+  }
+
+  .price {
+    float: right;
+    padding-top: 30px;
+    font-size: 20px;
+    color: #5CA4D7;
+  }
+}
+
+.left, .right, .middle {
+  width: 30%;
+  float:left;
+  margin: 15px;
+  .shirt {
+    height: 375px;
+    }
+  }
+
+.shirt-box {
+  border-top: 2px solid #5CA4D7;
+  border-right: 2px solid #5CA4D7;
+  border-left: 2px solid #5CA4D7;
+}
+
+nav div {
+  display: block;
+  float: left;
+  color: #5CA4D7;
+  div {
+    width: 80px;
+  }
+
+  .fa-heart-o {
+    font-size: 25px;
+  }
+  .fa-refresh {
+    font-size: 25px;
+  }
+
+.fa-shopping-cart {
+  font-size: 25px;
+  }
+
+.size {
+    text-decoration: none;
+    color: #5CA4D7;
+    font-size: 25px;
+  }
+}
